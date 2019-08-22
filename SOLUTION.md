@@ -40,7 +40,7 @@ $ docker-compose run spark-driver sbt test
 
 ```
 $ docker-compose up -d
-$ docker-compose -f log spark-driver
+$ docker-compose logs -f spark-driver
 ```
 
 ## Result
@@ -48,7 +48,7 @@ $ docker-compose -f log spark-driver
 ### Average Session Time
 
 ```
-$ cat data/output/session_duration_avg/*.csv 
+$ cat data/output/session_duration_avg/*.csv
 
 211.20631982892198 (Seconds)
 ```
