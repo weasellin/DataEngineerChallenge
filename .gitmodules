@@ -1,0 +1,3 @@
+[submodule "app/sessionizer"]
+	path = app/sessionizer
+	url = https://github.com/weasellin/spark-udwf-session.git
