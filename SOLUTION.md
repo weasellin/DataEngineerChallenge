@@ -43,6 +43,12 @@ $ docker-compose up -d
 $ docker-compose logs -f spark-driver
 ```
 
+### Clean
+
+```
+$ docker-compose down
+```
+
 ## Result
 
 ### Average Session Time
